@@ -2,10 +2,12 @@
 <html>
     <head>
         <title>blog</title>
+        <link href="style.css" rel="stylesheet">
         <style>
             h1 {
                 font-size: 14px;
                 font: Oxygen;
+                text-align: center;
                 
             }
             h2 {
@@ -16,14 +18,22 @@
             }
             p {
                 font: Oxygen;
+                text-align: left;
             }
         </style>
     </head>
-    <body style="background-color: lightseagreen; padding: 8px;">
+    <body>
         <header>
-            <h1 style="padding: 8px; text-align: center; font-size: 50px; color: #13ec41; border-bottom:  #ee48e4 1px solid; height: 80px">Wildwood</h1>
+            <div class="navbackground">
+                <img src="WildBlackLogo.jpg" width="250px">
+                <ul class="navbar">
+                    <li><a href="home.html">Home</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>   
+            </div> 
         </header>
-        <main>
+        <main style="background-color: lightseagreen; padding: 8px;">
         <h1  style="font-size: 16px; color: #13ec41;">TLDR</h1>
         <p class="intro">Nation States are very ineffective at combatting climate change.  A borderless problem warrants a global decentralized solution.  Open Forest Protocol has a blockchain native product for monitoring, reporting and verifying carbon credits earned by protecting forests. </p>
         
@@ -54,8 +64,14 @@
         <p>Follow #ReFi on twitter.</p>
         </main>
 
-        <footer style="padding: 8px; border-top: #ee48e4 1px solid; height: 80px">
-            <p><a href="http://www.wildwood-world.com/2022/02/reporting-from-ethdenver.html">Original Article</a></p>
+        <footer>
+            <div class="footerbackblog">
+                <p><a href="http://www.wildwood-world.com/2022/02/reporting-from-ethdenver.html">Original Article</a></p>
+                    <ul class="navfoot">
+                        <li><a href="https://www.instagram.com/wildwood_nursery">IG</a></li>
+                        <li><a href="https://twitter.com/j7s7ph?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-show-count="false">Follow</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>></li>
+                    </ul>
+            </div> 
         </footer>
     </body>
 </html>
