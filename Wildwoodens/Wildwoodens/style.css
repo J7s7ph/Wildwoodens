@@ -30,12 +30,12 @@ body {
 
 main {
     width: 500px;
-    margin: 100px auto;
+    margin: 10px auto;
     border: #ee48e4 3px solid;
     border-radius: 10px;
-    padding: 10px;
+    
     text-align: center;
-    font-size: 16px;
+    font-size: 16px;  
 }
 
 footer {
@@ -70,9 +70,13 @@ footer {
 
 .maincontact {
     width: 500px;
-    margin: 10px auto;
+    margin: auto;
     text-align: center;
     font-size: 16px;
+    background-image: url(./Supernova\ ETH.jpg);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: 50%;
 }
 
 /* v1 blog head styling
